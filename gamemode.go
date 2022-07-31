@@ -53,7 +53,7 @@ func (g Gamemode) Run(src cmd.Source, o *cmd.Output) {
 		}
 		o.Printf("You changed %s's gamemode to %s.", targets[0].Name(), GamemodeToString(gamemode))
 	} else {
-		o.Printf("You set the gamemode to %s for %d people.", GamemodeToString(gamemode), count)
+		o.Printf("You set the gamemode to %s for %d players.", GamemodeToString(gamemode), count)
 	}
 }
 
