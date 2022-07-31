@@ -15,4 +15,7 @@ func RegisterAll() {
 		TeleportPlayerToCoords{},
 		TeleportPlayerToPlayer{},
 	))
+	cmd.Register(cmd.New("kick", "disconnect a player", []string{},
+		Kick{},
+	))
 }
