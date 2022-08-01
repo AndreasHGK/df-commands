@@ -1,4 +1,4 @@
-module df-commands
+module github.com/andreashgk/df-commands
 
 go 1.18
 
