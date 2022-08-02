@@ -18,4 +18,7 @@ func RegisterAll() {
 	cmd.Register(cmd.New("kick", "disconnect a player", []string{},
 		Kick{},
 	))
+	cmd.Register(cmd.New("give", "give an item to a player", []string{},
+		Give{},
+	))
 }

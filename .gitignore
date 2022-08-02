@@ -1,2 +1,8 @@
 .idea/
+
+# Dragonfly stuff
 cmd/
+config.toml
+world/
+resources/
+players/
