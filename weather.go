@@ -21,7 +21,7 @@ func (c Weather) Run(src cmd.Source, o *cmd.Output) {
 	}
 	w := runner.World()
 
-	t := time.Duration(c.Duration.LoadOr(60)) * time.Second / 20
+	t := time.Duration(c.Duration.LoadOr(60)) * time.Second
 	switch c.Weather {
 	case "clear":
 		w.StopRaining()
