@@ -47,9 +47,9 @@ func (g Give) Run(src cmd.Source, o *cmd.Output) {
 
 	itemName := item.DisplayName(i.Item(), language.BritishEnglish)
 	if count == 1 {
-		o.Printf("You have given %dx %s to %s.", itemCount, itemName, g.Player[0].Name())
+		o.Printf("You have given %s * %d to %s.", itemName, itemCount, g.Player[0].Name())
 	} else {
-		o.Printf("You have given %dx %s to %d players.", itemCount, itemName, count)
+		o.Printf("You have given %s * %d to %d players.", itemName, itemCount, count)
 	}
 }
 

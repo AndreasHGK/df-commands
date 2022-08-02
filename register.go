@@ -21,4 +21,7 @@ func RegisterAll() {
 	cmd.Register(cmd.New("give", "give an item to a player", []string{},
 		Give{},
 	))
+	cmd.Register(cmd.New("weather", "change the weather", []string{},
+		Weather{},
+	))
 }
