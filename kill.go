@@ -57,3 +57,7 @@ func (s SourceCommand) ReducedByArmour() bool {
 func (s SourceCommand) ReducedByResistance() bool {
 	return false
 }
+
+func (SourceCommand) Fire() bool {
+	return false
+}

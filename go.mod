@@ -3,7 +3,7 @@ module github.com/andreashgk/df-commands
 go 1.18
 
 require (
-	github.com/df-mc/dragonfly v0.7.6-0.20220731122825-867e8ad695dc
+	github.com/df-mc/dragonfly v0.8.3
 	github.com/go-gl/mathgl v1.0.0
 	github.com/pelletier/go-toml v1.9.4
 	github.com/sirupsen/logrus v1.8.1
@@ -21,7 +21,7 @@ require (
 	github.com/muhammadmuzzammil1998/jsonc v1.0.0 // indirect
 	github.com/rogpeppe/go-internal v1.3.0 // indirect
 	github.com/sandertv/go-raknet v1.11.1 // indirect
-	github.com/sandertv/gophertunnel v1.22.3 // indirect
+	github.com/sandertv/gophertunnel v1.24.5 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
 	golang.org/x/exp v0.0.0-20220713135740-79cabaa25d75 // indirect
